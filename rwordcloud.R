@@ -1,6 +1,6 @@
 
-install("wordcloud")
-install("tm")
+library("wordcloud")
+library("tm")
 
 #Load data
 lords <- Corpus (DirSource("doc/"))
